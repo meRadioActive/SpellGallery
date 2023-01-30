@@ -6,5 +6,5 @@ import './scss/main.scss';
 
 const pinia = createPinia();
 const app = createApp(App);
-app.mount('#app')
 app.use(pinia)
+app.mount('#app')
